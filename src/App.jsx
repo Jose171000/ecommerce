@@ -1,9 +1,11 @@
+import { API_URL } from "../env"
+
 function App() {
 
   return (
     <>
-    <h1>Welcome, let's fly together</h1>
-    </>
+    <h1>Welcome, {API_URL}</h1>
+    </> 
   )
 }
 
